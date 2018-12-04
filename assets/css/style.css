@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+  background-color: #3663AD;
+  overflow-x: hidden;
+}
+
+.btn {
+	border-radius: 0 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p,li,a,span {
+ 	font-family: 'Lato', sans-serif;
+}
+
+a {
+	color: white;
+}
+
+footer {
+  background-color: #21386E;
+  position: absolute;
+}
+
+.fa-html5, .fa-css3-alt, .fa-js {
+  font-size: 4rem;
+  color: #C7A008;
+} /*brands*/
+
+.fa-html5:hover, .fa-css3-alt:hover, .fa-js:hover{
+  color: #FFCB05;
+} /*brands hover*/
+
+#mypoke {
+	width: 75vh;
+	height: 75vh;
+}
+
+.blurred {
+	filter: blur(20px);
+}
